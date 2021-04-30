@@ -11,14 +11,23 @@ img{
 form { 
     margin: 0 auto; 
     width:250px;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
 }
 .seccion1, .seccion2, .seccion3{
-    border: 2px  rgb(63, 33, 172);
+    border: 2px;
     border-style: groove;
 }
 .seccion2{
-    height: 150px;
+    height: 180px;
 }
 .seccion3 {
-    height: 10px;
+    height: 8px;
+}
+.container {
+  width: 40%;
+  margin: auto;
+  background-color: #251F1E;
+  opacity: 0.8;
 }

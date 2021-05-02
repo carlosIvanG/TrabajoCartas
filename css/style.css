@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
 }
 
-img{
+.logo{
     margin: auto;
     display: block;
 }
@@ -30,4 +30,36 @@ form {
   margin: auto;
   background-color: #251F1E;
   opacity: 0.8;
+}
+.carta{
+    width: 80px;
+    height: 120px;
+}
+#cuerpo2{
+/*     background-color: rgb(173, 20, 220, 0.3); */
+    display: inline-block;
+    width: 100%;
+}
+#sub_cuerpo2{
+    display: inline-block;
+    margin-right: -5px;
+
+} 
+.sub_cuerpo21{
+    width: 54%;
+/*     background-color: crimson; */
+}
+
+.sub_cuerpo22{
+    width: 46%;
+    /* background-color: rgb(27, 23, 90); */
+}
+table {
+    width: 100%;
+    border: 2px;
+    border-style: groove;
+}
+.section1{
+    border: 2px;
+    border-style: groove;
 }

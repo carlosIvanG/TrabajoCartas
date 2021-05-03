@@ -10,102 +10,16 @@
 </head>
 
 <body>
-    <img class="logo" src="img/Logo.png" alt="Logo" width="50%" height="50%">
-
-    <div id="cuerpo1">
-        <div class="container">
-            <div class="seccion1">
-                <h3 style="text-align:center"> Inicio de seccion </h3>
-            </div>
-            <div class="seccion2">
-                <form>
-                    <br>
-                    <label for="fname">Usuario:</label><br>
-                    <input type="text" id="fname" name="user"><br>
-                    <label for="lname">Contraseña:</label><br>
-                    <input type="text" id="lname" name="password"><br><br>
-                    <input type="button" onclick="javascript:login()" value="Ingresar" name="entrar">
-                </form>
-            </div>
-            <div class="seccion3"></div>
-        </div>
+    <div class="ol">
+        <input id="salir" type="button" value="Salir" name="entrar" onclick="javascript:salir()">
     </div>
-    <div id="cuerpo2" style="display: none;">
-        <div id="sub_cuerpo2" class="sub_cuerpo21">
-            <div>
-                <img class="carta" src="img/1.png" alt="carta1">
-                <img class="carta" src="img/2.png" alt="carta2">
-                <img class="carta" src="img/3.png" alt="carta3">
-                <img class="carta" src="img/4.png" alt="carta4">
-                <img class="carta" src="img/5.png" alt="carta5">
-                <img class="carta" src="img/6.png" alt="carta6">
-            </div>
+    <img class="logo" src="img/Logo.png" alt="Logo" width="50%" height="50%">
+    <div id="contenido"></div>
 
-            <div>
-                <img class="carta" src="img/7.png" alt="carta7">
-                <img class="carta" src="img/8.png" alt="carta8">
-                <img class="carta" src="img/9.png" alt="carta9">
-                <img class="carta" src="img/10.png" alt="carta10">
-                <img class="carta" src="img/11.png" alt="carta11">
-                <img class="carta" src="img/12.png" alt="carta12">
-                <img class="carta" src="img/13.png" alt="carta13">
-            </div>
-        </div>
-        <div id="sub_cuerpo2" class="sub_cuerpo22">
-            <div>
-                <table>
-                    <tr>
-                        <th>#</th>
-                        <th>Cartas</th>
-                        <th>Cantidad</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>As de diamantes</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Dos de diamantes</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Tres de diamantes</td>
-                        <td>0</td>
-                    </tr>
-
-                    <tr>
-                        <td>4</td>
-                        <td>Cuatro de corazones</td>
-                        <td>0</td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <div class="section1">
-                    <h4> Inicio de seccion </h4>
-                    <form>
-                        <br>
-                        <label for="fname">Numero:</label><br>
-                        <input type="text" id="fname" name="user"><br>
-                        <label for="lname">Carta:</label><br>
-                        <select id="cars" name="cars">
-                            <option value="volvo">As de diamantes</option>
-                            <option value="saab">Dos de diamantes</option>
-                            <option value="fiat">Tres de diamantes</option>
-                            <option value="audi">Cuatro de corazones</option>
-                          </select><br><br>
-                        <input type="button" value="Guardar" name="entrar">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <script src="index.js"></script>
-        <script src="js/localStorage.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>

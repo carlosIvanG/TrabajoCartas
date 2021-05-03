@@ -1,6 +1,7 @@
 body{
     background-image: url(http://www.stpetersacademy.com.pa/wp-content/uploads/2018/06/fondo-login-spa.jpg);
     background-repeat: no-repeat;
+    max-width: 100%;
 }
 
 .logo{
@@ -15,9 +16,10 @@ form {
     font-family: monospace;
     color: white;
 }
-.seccion1, .seccion2, .seccion3{
+.seccion1, .seccion2{
     border: 2px;
     border-style: groove;
+    background-color: #251F1E;
 }
 .seccion2{
     height: 180px;
@@ -28,18 +30,14 @@ form {
 .container {
   width: 40%;
   margin: auto;
-  background-color: #251F1E;
   opacity: 0.8;
 }
 .carta{
     width: 80px;
     height: 120px;
+    cursor:pointer;
 }
-#cuerpo2{
-/*     background-color: rgb(173, 20, 220, 0.3); */
-    display: inline-block;
-    width: 100%;
-}
+
 #sub_cuerpo2{
     display: inline-block;
     margin-right: -5px;
@@ -59,7 +57,44 @@ table {
     border: 2px;
     border-style: groove;
 }
+.tbody{
+    text-align: center;
+}
 .section1{
     border: 2px;
     border-style: groove;
 }
+
+.alert-danger{
+    background-color: #d96060;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.ol{
+    float: right;
+}
+@media screen and (max-width: 360px){
+    form > input{ 
+        width: 40%;
+    }
+    #sub_cuerpo2{
+        display: block;
+        width: 100%;
+    }}
+
+@media screen and (max-width: 768px){
+.carta{
+    background-color: rgb(40, 19, 233);
+}    
+.sub_cuerpo21{
+    width: 80%;
+    background-color: tomato;
+}
+#sub_cuerpo2{
+    display: block;
+    width: 100%;
+}}
